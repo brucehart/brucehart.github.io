@@ -8,7 +8,7 @@ slug: sample-post
 title: 'Sample Post'
 ---
 
-#Sample post
+# Sample post
 
 This is some sample text to go along with my post.
 

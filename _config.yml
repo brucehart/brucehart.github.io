@@ -1,0 +1,80 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Hey There Buddo!
+tagline: Hot Leaves in a Cold Worlds.
+email: philzuckerblog@gmail.com
+description: A blog about life, programming, math, logic, and physics.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.bhart.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: brucejhart    
+github_username: brucehart
+
+mastodon:
+  - username: sandmouth
+    instance: types.pl
+
+google_analytics: G-XXXXXXXX
+
+#feed:
+#  tags: true
+
+#author:
+#  name: Bruce Hart
+#  url: https://www.bhart.org
+
+logo: /assets/logo.png
+twitter:
+  username: brucehart
+  card: summary
+
+social:
+  name: Bruce Hart
+  links:
+    - https://twitter.com/brucejhart    
+    - https://www.linkedin.com/in/hartbruce/
+    - https://github.com/brucehart
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  #- jekyll-jupyter-notebook
+exclude:
+  - Gemfile
+  - Gemfile.lock
+permalink: /:title/
+#plugins_dir:
+#  - jekyll-seo-tag
+
+feed:
+  excerpt_only: true
+
+defaults:
+  - scope:
+      path: "pynb"
+    values:
+      image: true
+  - scope:
+      path: ""
+    values:
+      image: /assets/logo.png
+
+collections:
+  notes:
+    output: true

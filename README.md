@@ -1,1 +1,0 @@
-# brucehart.github.io

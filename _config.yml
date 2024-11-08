@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: BHart.org  
-tagline: 
+title: Embracing the Future
+tagline: Personal Thoughts from Bruce Hart
 email: bruce.hart@gmail.com
-description: .
+description: Personal thoughts and reflections on technology, data science, and the future.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.bhart.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brucejhart    
